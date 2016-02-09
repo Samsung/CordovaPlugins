@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/color_select_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@android:color/white"
+    android:visibility="gone" >
+
+    <ImageButton
+        android:id="@+id/pen1_btn"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@null"
+        android:contentDescription="@string/string_black"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spen_color_01" />
+
+    <ImageButton
+        android:id="@+id/pen2_btn"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@null"
+        android:contentDescription="@string/string_green"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spen_color_02" />
+
+    <ImageButton
+        android:id="@+id/pen3_btn"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@null"
+        android:contentDescription="@string/string_iris_blue"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spen_color_03" />
+
+    <ImageButton
+        android:id="@+id/pen4_btn"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@null"
+        android:contentDescription="@string/string_medium_purple"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spen_color_04" />
+
+    <ImageButton
+        android:id="@+id/pen5_btn"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@null"
+        android:contentDescription="@string/string_hot_pink"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spen_color_05" />
+
+    <ImageButton
+        android:id="@+id/pen6_btn"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@null"
+        android:contentDescription="@string/string_red"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spen_color_06" />
+
+    <ImageButton
+        android:id="@+id/pen7_btn"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@null"
+        android:contentDescription="@string/string_orange"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spen_color_07" />
+
+</LinearLayout>

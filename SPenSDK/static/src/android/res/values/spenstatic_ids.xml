@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="seperator">false</item>
+    <item type="id" name="clickbutton">false</item>
+    <item type="id" name="listview">false</item>
+    <item type="id" name="previewLayout">false</item>
+    <item type="id" name="radioGroup1">false</item>
+    <item type="id" name="radio1">false</item>
+    <item type="id" name="radio2">false</item>
+    <item type="id" name="cutter_seekbar">false</item>
+    <item type="id" name="fontTypeName">false</item>
+    <item type="id" name="fontSize">false</item>
+    <item type="id" name="textAlignButton">false</item>
+    <item type="id" name="textAlignImg">false</item>
+    <item type="id" name="changestrokeframebg">false</item>
+</resources>

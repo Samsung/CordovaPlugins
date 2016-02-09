@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+  id="com.samsung.spen"
+  version="1.1.2">
+
+    <name>Samsung Spen</name>
+    <description>Samsung Spen Plugin</description>
+    <author>Samsung Electronics</author>
+    <license>Apache 2.0 License</license>
+    <engines>
+        <engine name="cordova" version=">=3.5.0" />
+    </engines>
+    <js-module src="www/spen.js" name="spen">
+        <clobbers target="samsung.spen" />
+    </js-module>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="SpenPlugin"> 
+                <param name="android-package" value="com.samsung.spen.SpenPlugin"/>
+            </feature>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+            <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/*/application">
+            <meta-data android:name="com.samsung.cordova.spen" android:value="true" />
+        </config-file>
+        <source-file src="src/android/com/samsung/spen/" target-dir="src/com/samsung/" />        
+
+        <source-file src="src/android/libs/pen-v4.0.7.jar" target-dir="libs"/>
+        <lib-file src="src/android/libs/sdk-v1.0.0.jar" target-dir="libs" arch="device" />
+
+        <resource-file src="src/android/res/drawable/" target="res/drawable/" />
+        <resource-file src="src/android/res/drawable-sw360dp-xhdpi/" target="res/drawable-sw360dp-xhdpi/" />
+        <resource-file src="src/android/res/drawable-sw360dp-xxhdpi/" target="res/drawable-sw360dp-xxhdpi/" />
+        <resource-file src="src/android/res/drawable-sw360dp-xxxhdpi/" target="res/drawable-sw360dp-xxxhdpi/" />
+        <resource-file src="src/android/res/drawable-sw800dp-xhdpi/" target="res/drawable-sw800dp-xhdpi/" />
+
+        <resource-file src="src/android/res/layout/spentraybar_basic_colors.xml" target="res/layout/spentraybar_basic_colors.xml" />
+        <resource-file src="src/android/res/layout/spentraybar_bottom.xml" target="res/layout/spentraybar_bottom.xml" />
+        <resource-file src="src/android/res/layout/spentraybar_top.xml" target="res/layout/spentraybar_top.xml" />
+        <resource-file src="src/android/res/values/spen_strings.xml" target="res/values/spen_strings.xml" />
+       
+    </platform>
+
+</plugin>

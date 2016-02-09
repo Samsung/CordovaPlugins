@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spen_traybar_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/spen_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/penBtn"
+                android:layout_width="28dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/toolbar_pencolor_btn"
+                android:scaleType="fitCenter"
+                android:src="@drawable/snote_toolbar_icon_fountainpen_normal"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/EraserBtn"
+                android:layout_width="28dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/toolbar_eraser_btn"
+                android:scaleType="fitCenter"
+                android:src="@drawable/snote_toolbar_icon_eraser_normal"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/undoBtn"
+                android:layout_width="28dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/toolbar_undo_btn"
+                android:scaleType="fitCenter"
+                android:src="@drawable/spen_toolbar_undo"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/redoBtn"
+                android:layout_width="28dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/toolbar_redo_btn"
+                android:scaleType="fitCenter"
+                android:src="@drawable/spen_toolbar_redo"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/changeBgBtn"
+                android:layout_width="28dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/toolbar_changebg_btn"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tool_ic_attach"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/selectionBtn"
+                android:layout_width="28dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/toolbar_selection_btn"
+                android:scaleType="fitCenter"
+                android:src="@drawable/actionmemo_top_icon_select"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal" >
+            <ImageButton
+                 android:id="@+id/penAndFingerMode"
+                 android:layout_width="28dp"
+                 android:layout_height="24dp"
+                 android:background="@null"
+                 android:layout_gravity="center"
+                 android:adjustViewBounds="true"
+                 android:scaleType="fitCenter"
+                 android:visibility="gone"
+                 android:contentDescription="@string/toolbar_pen_and_finger_mode" />
+            <ImageButton
+                android:id="@+id/cancelBtn"
+                android:layout_width="28dp"
+                android:layout_height="24dp"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:visibility="gone"
+                android:src="@drawable/quick_popup_icon_cancel"
+                android:contentDescription="@string/toolbar_cancel_btn" />
+            <ImageButton
+                 android:id="@+id/saveBtn"
+                 android:layout_width="28dp"
+                 android:layout_height="24dp"
+                 android:background="@null"
+                 android:adjustViewBounds="true"
+                 android:layout_gravity="center"
+                 android:scaleType="fitCenter"
+                 android:visibility="gone"
+                 android:src="@drawable/quick_popup_icon_save_normal" 
+                 android:contentDescription="@string/toolbar_done_btn" />
+         </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/editBtn"
+            android:layout_width="28dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/toolbar_edit_btn"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tool_ic_gesture"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

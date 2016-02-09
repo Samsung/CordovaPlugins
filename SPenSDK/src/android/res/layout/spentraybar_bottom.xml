@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/poup_pages"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@null" >
+
+    <ImageButton
+        android:id="@+id/deletePage"
+        android:layout_width="28dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/toolbar_deletepage_button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/snote_page_delete_normal"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/pageNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/toolbar_pagenumber"
+        android:text="1/1"
+        android:textColor="@android:color/black"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/navigateLeft"
+        android:layout_width="28dp"
+        android:layout_height="26dp"
+        android:layout_toLeftOf="@id/pageNumber"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/toolbar_previouspage_button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/snote_page_left_normal"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/navigateRight"
+        android:layout_width="28dp"
+        android:layout_height="26dp"
+        android:layout_toRightOf="@id/pageNumber"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/toolbar_nextpage_button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/snote_page_right_normal"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/addPage"
+        android:layout_width="28dp"
+        android:layout_height="26dp"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/toolbar_addpage_button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/snote_page_add_normal"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="toolbar_pencolor_btn">Pen Color</string>
+    <string name="toolbar_eraser_btn">Eraser</string>
+    <string name="toolbar_undo_btn">Undo</string>
+    <string name="toolbar_redo_btn">Redo</string>
+    <string name="toolbar_changebg_btn">Change Background</string>
+    <string name="toolbar_pen_and_finger_mode">S Pen and Finger mode</string>
+    <string name="toolbar_selection_btn">Selection</string>
+    <string name="toolbar_done_btn">Done</string>
+    <string name="toolbar_cancel_btn">Cancel</string>
+    <string name="toolbar_edit_btn">Edit</string>
+    <string name="string_black">Black</string>
+    <string name="string_green">Green</string>
+    <string name="string_iris_blue">Blue</string>
+    <string name="string_medium_purple">Purple</string>
+    <string name="string_hot_pink">Pink</string>
+    <string name="string_red">Red</string>
+    <string name="string_orange">Orange</string>
+    <string name="toolbar_deletepage_button">Delete Page</string>
+    <string name="toolbar_pagenumber">Page Number</string>
+    <string name="toolbar_previouspage_button">Previous Page</string>
+    <string name="toolbar_nextpage_button">Next Page</string>
+    <string name="toolbar_addpage_button">Add Page</string>
+    <string name="discard_change_msg">All changes will be discarded.</string>
+    <string name="discard_change">Discard</string>
+    <string name="discard_cancel_btn">CANCEL</string>
+</resources>

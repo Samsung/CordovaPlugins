@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="119.0dip" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_width="24.0dip" android:layout_height="fill_parent" />
+    <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="8.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="58.0dip" android:layout_marginTop="8.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <View android:background="#ffbbbbbb" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_marginLeft="89.0dip" android:layout_marginTop="5.0px" android:layout_marginBottom="5.0px" />
+    <RelativeLayout android:layout_width="29.0dip" android:layout_height="40.0dip" android:layout_marginTop="5.0px" android:layout_marginBottom="4.0px" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

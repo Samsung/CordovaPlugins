@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="298.0dip" android:layout_height="122.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="45.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <Button android:background="@android:color/transparent" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+    </RelativeLayout>
+    <ImageView android:focusable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="32.0dip" android:layout_marginTop="19.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:focusable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="81.0dip" android:layout_marginTop="19.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:focusable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="130.0dip" android:layout_marginTop="19.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:focusable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="179.0dip" android:layout_marginTop="19.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:focusable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="228.0dip" android:layout_marginTop="19.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:focusable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="32.0dip" android:layout_marginTop="68.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:focusable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="81.0dip" android:layout_marginTop="68.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:focusable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="130.0dip" android:layout_marginTop="68.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:focusable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="179.0dip" android:layout_marginTop="68.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:focusable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="228.0dip" android:layout_marginTop="68.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <RelativeLayout android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="45.0dip" android:layout_marginRight="4.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <Button android:background="@android:color/transparent" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+    </RelativeLayout>
+    <View android:visibility="gone" android:layout_width="44.0dip" android:layout_height="44.0dip" />
+    <View android:visibility="gone" android:layout_width="44.0dip" android:layout_height="44.0dip" />
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+  id="com.samsung.spen-static"
+  version="1.1.2">
+
+    <name>Samsung Spen Static Addon</name>
+    <description>Samsung Spen Static Addon Plugin</description>
+    <author>Samsung Electronics</author>
+    <license>Apache 2.0 License</license>
+    <engines>
+        <engine name="cordova" version=">=3.5.0" />
+    </engines>
+ 
+
+    <platform name="android">
+        <source-file src="src/android/libs/armeabi/libSPenBase.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenBeautify.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenBrush.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenChineseBrush.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenEngine.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenFountainPen.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenHSV.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenInit.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenInkPen.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenMagicPen.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenMarker.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenModel.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenMontblancCalligraphyPen.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenMontblancFountainPen.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenNativePen.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenNRR.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenObliquePen.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenPencil.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenPluginFW.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenScreenCodecDecoder.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenSkia.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenVIRecognition.so" target-dir="libs/armeabi"/>
+        <source-file src="src/android/libs/armeabi/libSPenVITextAll.so" target-dir="libs/armeabi"/>
+		<source-file src="src/android/libs/armeabi/libSPenShape.so" target-dir="libs/armeabi"/>
+
+		<resource-file src="src/android/res/drawable-hdpi-v4/" target="res/drawable-hdpi-v4/" />
+        <resource-file src="src/android/res/drawable-mdpi-v4/" target="res/drawable-mdpi-v4/" />
+        <resource-file src="src/android/res/drawable-xhdpi-v4/" target="res/drawable-xhdpi-v4/" />
+        <resource-file src="src/android/res/drawable-xhdpi-v21/" target="res/drawable-xhdpi-v21/" />
+        <resource-file src="src/android/res/drawable-xxhdpi-v4/" target="res/drawable-xxhdpi-v4/" />
+        <resource-file src="src/android/res/drawable-xxxhdpi-v4/" target="res/drawable-xxxhdpi-v4/" />
+        <resource-file src="src/android/res/drawable-xxxhdpi-v21/" target="res/drawable-xxxhdpi-v21/" />
+        
+        <source-file src="src/android/libs/arm64-v8a/libSPenBase.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenBeautify.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenBrush.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenChineseBrush.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenEngine.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenFountainPen.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenHSV.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenInit.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenInkPen.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenMagicPen.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenMarker.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenModel.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenMontblancCalligraphyPen.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenMontblancFountainPen.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenNativePen.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenNRR.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenObliquePen.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenPencil.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenPluginFW.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenScreenCodecDecoder.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenSkia.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenVIRecognition.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="src/android/libs/arm64-v8a/libSPenVITextAll.so" target-dir="libs/arm64-v8a"/>
+		<source-file src="src/android/libs/arm64-v8a/libSPenShape.so" target-dir="libs/arm64-v8a"/> 
+
+        <source-file src="src/android/assets/vidata/hwr_en_US.dat" target-dir="assets/vidata/" />
+        <source-file src="src/android/assets/vidata/hwr_ko_KR.dat" target-dir="assets/vidata/" />
+        <source-file src="src/android/assets/vidata/hwr_zh_CN.dat" target-dir="assets/vidata/" />
+	<source-file src="src/android/assets/vidata/hwr_de_DE.dat" target-dir="assets/vidata/" />
+        <source-file src="src/android/assets/vidata/hwr_equation.dat" target-dir="assets/vidata/" />
+		
+        <resource-file src="src/android/res/anim/video_recording_ani.xml" target="res/anim/video_recording_ani.xml" />		
+		<resource-file src="src/android/res/layout/context_menu_seperatoritem.xml" target="res/layout/context_menu_seperatoritem.xml" />
+        <resource-file src="src/android/res/layout/context_menu_viewitem.xml" target="res/layout/context_menu_viewitem.xml" />
+        <resource-file src="src/android/res/layout/context_menu_window.xml" target="res/layout/context_menu_window.xml" />
+        <resource-file src="src/android/res/layout/setting_beautify_option_view_v40.xml" target="res/layout/setting_beautify_option_view_v40.xml" />
+		<resource-file src="src/android/res/layout/setting_beautify_option_view_v41.xml" target="res/layout/setting_beautify_option_view_v41.xml" />
+		<resource-file src="src/android/res/layout/setting_color_pallet_layout_v40.xml" target="res/layout/setting_color_pallet_layout_v40.xml" />
+		<resource-file src="src/android/res/layout/setting_color_palette_layout_v41.xml" target="res/layout/setting_color_palette_layout_v41.xml" />
+		<resource-file src="src/android/res/layout/setting_color_picker_layout_v40.xml" target="res/layout/setting_color_picker_layout_v40.xml" />
+		<resource-file src="src/android/res/layout/setting_color_picker_layout_v41.xml" target="res/layout/setting_color_picker_layout_v41.xml" />
+		<resource-file src="src/android/res/layout/setting_eraser_layout_v40.xml" target="res/layout/setting_eraser_layout_v40.xml" />
+		<resource-file src="src/android/res/layout/setting_font_color_layout_v40.xml" target="res/layout/setting_font_color_layout_v40.xml" />
+		<resource-file src="src/android/res/layout/setting_pen_layout_v40.xml" target="res/layout/setting_pen_layout_v40.xml" />
+		<resource-file src="src/android/res/layout/setting_remover_layout_v40.xml" target="res/layout/setting_remover_layout_v40.xml" />
+		<resource-file src="src/android/res/layout/setting_remover_layout_v41.xml" target="res/layout/setting_remover_layout_v41.xml" />
+		<resource-file src="src/android/res/layout/setting_seekbar_layout_v40.xml" target="res/layout/setting_seekbar_layout_v40.xml" />
+		<resource-file src="src/android/res/layout/setting_selection_layout_v40.xml" target="res/layout/setting_selection_layout_v40.xml" />
+		<resource-file src="src/android/res/layout/setting_selection_layout_v41.xml" target="res/layout/setting_selection_layout_v41.xml" />
+		<resource-file src="src/android/res/layout/setting_spuit_layout_v40.xml" target="res/layout/setting_spuit_layout_v40.xml" />
+		<resource-file src="src/android/res/layout/setting_text_body_layout_v40.xml" target="res/layout/setting_text_body_layout_v40.xml" />
+		<resource-file src="src/android/res/values/spen_config.xml" target="res/values/spen_config.xml" />
+		<resource-file src="src/android/res/values/spenstatic_ids.xml" target="res/values/spenstatic_ids.xml" />
+        <resource-file src="src/android/res/values/spenstatic_public.xml" target="res/values/spenstatic_public.xml" />
+        <resource-file src="src/android/res/values/spenstatic_arrays.xml" target="res/values/spenstatic_arrays.xml" />
+		<resource-file src="src/android/res/values/spenstatic_dimens.xml" target="res/values/spenstatic_dimens.xml" />
+		<resource-file src="src/android/res/values/spenstatic_integers.xml" target="res/values/spenstatic_integers.xml" />
+		<resource-file src="src/android/res/values/spenstatic_strings.xml" target="res/values/spenstatic_strings.xml" />
+		<resource-file src="src/android/res/values/spenstatic_styles.xml" target="res/values/spenstatic_styles.xml" />
+            
+    </platform>
+
+</plugin>

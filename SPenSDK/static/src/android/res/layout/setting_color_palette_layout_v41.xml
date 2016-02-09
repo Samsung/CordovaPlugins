@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="261.0dip" android:layout_height="107.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="40.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <Button android:background="@android:color/transparent" android:layout_width="28.0dip" android:layout_height="28.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:focusable="true" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="14.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:focusable="true" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="68.0dip" android:layout_marginTop="14.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:focusable="true" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="111.0dip" android:layout_marginTop="14.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:focusable="true" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="154.0dip" android:layout_marginTop="14.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:focusable="true" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="197.0dip" android:layout_marginTop="14.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:focusable="true" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="57.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:focusable="true" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="68.0dip" android:layout_marginTop="57.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:focusable="true" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="111.0dip" android:layout_marginTop="57.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:focusable="true" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="154.0dip" android:layout_marginTop="57.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:focusable="true" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="197.0dip" android:layout_marginTop="57.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="2.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <Button android:background="@android:color/transparent" android:layout_width="28.0dip" android:layout_height="28.0dip" />
+    </RelativeLayout>
+    <View android:visibility="gone" android:layout_width="39.0dip" android:layout_height="39.0dip" />
+    <View android:visibility="gone" android:layout_width="39.0dip" android:layout_height="39.0dip" />
+</RelativeLayout>

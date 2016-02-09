@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015 Samsung Electronics, Co. Ltd.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="com.samsung.richnotification"
+        version="1.1.2">
+
+    <name>Samsung RichNotification</name>
+    <description>Samsung RichNotification Plugin</description>
+    <author>Samsung Electronics</author>
+    <license>Apache 2.0 License</license>
+
+    <engines>
+        <engine name="cordova" version=">=3.5.0"/>
+    </engines>
+
+    <asset src="www/richnotification.js" target="js/richnotification.js"/>
+
+    <js-module src="www/richnotification.js" name="richnotification">
+        <clobbers target="samsung.richnotification" />
+    </js-module>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="RichNotificationPlugin">
+                <param name="android-package" value="com.samsung.richnotification.RichNotification"/>
+            </feature>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/*/application">
+            <meta-data android:name="com.samsung.cordova.richnotification" android:value="true" />
+        </config-file>
+        <source-file src="src/android/com/samsung/richnotification/RichNotification.java" target-dir="src/com/samsung/richnotification"/>
+        <source-file src="src/android/com/samsung/richnotification/RichNotificationHelper.java" target-dir="src/com/samsung/richnotification"/>
+        <source-file src="src/android/com/samsung/richnotification/RichNotificationOptions.java" target-dir="src/com/samsung/richnotification"/>
+
+        <lib-file src="src/android/libs/richnotification-v1.1.0.jar" target-dir="libs" arch="device" />
+        <lib-file src="src/android/libs/sdk-v1.0.0.jar" target-dir="libs" arch="device" />
+        <lib-file src="src/android/libs/gson-2.2.4.jar" target-dir="libs" arch="device" />
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="com.samsung.wmanager.ENABLE_NOTIFICATION" />
+            <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+            <uses-permission android:name="android.permission.CALL_PHONE"/>
+            <uses-permission android:name="android.permission.SEND_SMS"/>
+            <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+        </config-file>
+    </platform>
+
+</plugin>

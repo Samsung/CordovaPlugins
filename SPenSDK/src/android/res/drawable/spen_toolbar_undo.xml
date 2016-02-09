@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:id="@+id/undoselector" xmlns:android="http://schemas.android.com/apk/res/android" >
+<item android:state_enabled="true" android:state_pressed="false" android:drawable="@drawable/snote_toolbar_icon_undo_normal"/>
+<item android:state_enabled="false" android:drawable="@drawable/tool_ic_undo_dim"/>
+</selector>
+
