@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2015 Samsung Electronics, Co. Ltd. Licensed under the 
+    Apache License, Version 2.0 (the "License"); you may not use this file except 
+    in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+    Unless required by applicable law or agreed to in writing, software distributed 
+    under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+    OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+    the specific language governing permissions and limitations under the License. -->
+<plugin
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.samsung.multiwindow"
+    version="1.1.2">
+    <name>Samsung MultiWindow</name>
+    <description>Samsung MultiWindow Plugin</description>
+    <license>Apache 2.0 License</license>
+    <author>Samsung Electronics</author>
+    <engines>
+        <engine
+            name="cordova"
+            version=">=3.5.0" />
+    </engines>
+    <js-module
+        src="www/multiwindow.js"
+        name="multiwindow">
+        <clobbers target="samsung.multiwindow" />
+    </js-module>
+    <platform name="android">
+        <config-file
+            target="res/xml/config.xml"
+            parent="/*">
+            <feature name="MultiWindow">
+                <param
+                    name="android-package"
+                    value="com.samsung.multiwindow.MultiWindow" />
+            </feature>
+        </config-file>
+        <config-file
+            target="AndroidManifest.xml"
+            parent="/*">
+            <uses-permission
+                android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+        </config-file>
+        <config-file
+            target="AndroidManifest.xml"
+            parent="/*/application">
+            <uses-library
+                android:required="false"
+                android:name="com.sec.android.app.multiwindow" />
+            <meta-data
+                android:name="com.sec.android.support.multiwindow"
+                android:value="true" />
+            <meta-data
+                android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W"
+                android:value="632.0dip" />
+            <meta-data
+                android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H"
+                android:value="598.0dip" />
+            <meta-data
+                android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W"
+                android:value="632.0dip" />
+            <meta-data
+                android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
+                android:value="598.0dip" />
+            <meta-data
+                android:name="com.samsung.cordova.multiwindow"
+                android:value="true" />
+        </config-file>
+        <source-file
+            src="src/android/com/samsung/multiwindow/MultiWindow.java"
+            target-dir="src/com/samsung/multiwindow/" />
+        <source-file
+            src="src/android/libs/multiwindow-v1.2.3.jar"
+            target-dir="libs" />
+        <lib-file
+            src="src/android/libs/sdk-v1.0.0.jar"
+            target-dir="libs"
+            arch="device" />
+    </platform>
+</plugin>
