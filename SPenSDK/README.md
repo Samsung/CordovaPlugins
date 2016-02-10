@@ -13,9 +13,13 @@ The Pen Plugin uses the following permission:
 When Pen Plugin is added to the application project the permissions get added to the project by default.
 
 ## Installation
-To add the plugin to your application
+To add the Cordova Plugin to your Cordova project:
 
-    cordova plugin add com.samsung.spen
+Unzip the Cordova Plugins into <plugin-name> directory, and from the root of your Cordova project add the plugin.
+cordova plugin add </path/to/plugin-name>
+
+In addition to the above step, for Pen Plugin you must do the following:
+cordova plugin add </path/to/plugin-name>/static
 
 ## Supported Platform
 
@@ -232,6 +236,4 @@ void removeSurfacePopup (id, successCallback, errorCallback)
 
 ### Restrictions
 
-The Samsung SPen Cordova Plugin is based on Samsung Pen SDK Version 4.0.0. You can use this plugin only
-on Samsung Android (API level 14 or higher) devices. All the restrictions of the Samsung Pen SDK are also
-applicable for the Samsung SPen Cordova Plugin.
+The Samsung SPen Cordova Plugin is based on Samsung Pen SDK Version 4.0.7. You can use this plugin only on Samsung Android (API level 14 or higher) devices. All the restrictions of the Samsung Pen SDK are also applicable for the Samsung SPen Cordova Plugin.

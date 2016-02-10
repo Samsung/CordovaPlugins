@@ -248,6 +248,5 @@ void dismiss (uuid, successCallback, errorCallback)
 ### Restrictions
 
 The Samsung RichNotification Cordova Plugin is based on Samsung Rich Notifications SDK Version 
-1.0.0. You can use this plugin only on Samsung Android (API level 19 or higher) devices compatible
-with Gear S. All the restrictions of the Samsung RichNotification SDK are also applicable for the 
-Samsung RichNotification Cordova Plugin.
+1.1.0. You can use this plugin only on Samsung Android (API level 19 or higher) devices compatible
+with Gear S and Gear S2. All the restrictions of the Samsung RichNotification SDK are also applicable for the Samsung RichNotification Cordova Plugin.
